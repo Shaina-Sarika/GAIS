@@ -25,7 +25,8 @@ class Header extends HTMLElement {
          padding-top: 5.5vw;
         }
         .navbar-nav .nav-link {
-          color: white !important; 
+          color: white !important;
+          padding-right: 2vw;
         }
         .navbar-nav .nav-link:hover {
           color: gray !important; 
@@ -50,13 +51,34 @@ class Header extends HTMLElement {
                <a class="nav-link" href="index.html">Home</a>
              </li>
              <li class="nav-item">
-               <a class="nav-link" href="whoweare.html">Who We Are</a>
+               <a class="nav-link" href="">Award Ceremony</a>
              </li>
              <li class="nav-item">
-               <a class="nav-link" href="whatweproduce.html">What We Produce</a>
+               <a class="nav-link" href="">Global Investors Meet</a>
              </li>
              <li class="nav-item">
-               <a class="nav-link" href="membership.html">GIF Membership</a>
+               <a class="nav-link" href="">Conferences Pages</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="">Tickets</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="">Agendas</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="">Speakers</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="">Programme</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="">Sponsors</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="">Media Partners</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="">Tickets Registration Form</a>
              </li>
              <li class="nav-item">
                <a class="nav-link" href="contact.html">Contact Us</a>
