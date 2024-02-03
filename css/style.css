@@ -306,3 +306,131 @@ h1 {
   width: 2.5vw;
   height: auto;
 }
+
+
+.award {
+  display: inline-block;
+  overflow: hidden;
+  float: left;
+}
+.award img {
+  width:49.5vw;
+  height: auto;
+}
+.award_txt {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  float: left;
+}
+.award_txt img{
+  width: 49.4vw;
+  height: 49.52vw;
+  overflow: hidden;
+}
+.awa_txt {
+  position: absolute;
+  top: 4.5vw;
+  left: 3vw;
+  font-size: 1.6vw;
+}
+.award_txt h2 {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 3vw;
+}
+.award_txt p {
+  font-family: 'Space Grotesk', sans-serif;
+  color: white;
+  padding-right: 6vw;
+}
+.investors {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  float: left;
+}
+.investors img {
+  width: 66vw;
+  height: 35vw;
+}
+.inv_txt {
+  position: absolute;
+  top: 4vw;
+  left: 5vw;
+}
+.inv_txt h2 {
+  font-size: 3vw;
+  color: white;
+  font-weight: bold;
+}
+.inv_txt p {
+  font-size: 1.5vw;
+  color: white;
+  padding-right: 8vw;
+}
+.inv_pic {
+  display: inline-block;
+  overflow: hidden;
+  float: left;
+}
+.inv_pic img {
+  width: 32.9vw;
+  height: auto;
+  overflow: hidden;
+}
+.workshop img {
+  width: 100vw;
+  height: auto;
+  padding: 0.8vw 0;
+}
+.partner {
+  position: relative;
+}
+.partner img {
+  width: 100vw;
+  height:auto;
+}
+.partner_txt {
+  position: absolute;
+  top: 6vw;
+  left: 36vw;
+}
+.partner_txt h1 {
+  font-size: 4vw;
+  color: white;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: bold;
+}
+.conc_pic {
+  position: relative;
+}
+.con_pic img {
+  width: 100vw;
+  height: auto;
+}
+.conctxt {
+  position: absolute;
+  top: 6vw;
+  left: 5vw;
+}
+.conctxt p, .end p {
+  font-size: 1.7vw;
+  width: 78vw;
+  color: white;
+  font-family: 'Space Grotesk', sans-serif;
+}
+.registernow img {
+  position: absolute;
+  top: 20vw;
+  left: 5vw;
+  width: 18.5vw;
+  height: auto;
+  border: solid 0.2vw white;
+}
+.end {
+  position: absolute;
+  top: 33vw;
+  left:5vw;
+}

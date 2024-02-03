@@ -57,7 +57,7 @@ class Header extends HTMLElement {
                <a class="nav-link" href="">Global Investors Meet</a>
              </li>
              <li class="nav-item">
-               <a class="nav-link" href="">Conferences Pages</a>
+               <a class="nav-link" href="conference.html">Conferences Pages</a>
              </li>
              <li class="nav-item">
                <a class="nav-link" href="">Tickets</a>
