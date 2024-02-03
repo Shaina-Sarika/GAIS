@@ -72,29 +72,36 @@ body
   font-size: 1.5vw;
   line-height: 1.5vw;
 }
-.stats {
+
+
+
+.stats1, .stats2, .stats3, .stats4 {
+  display: inline-block;
   color: #120052;
-  padding: 1% 10%;
+  padding: 6vw 12vw;
 }
-.stats1 {
-  font-size: 400%;
+h1 {
+  font-size: 6vw;
   font-weight: bold;
   font-family: 'Space Grotesk', sans-serif;
 }
-.stats2 {
-  font-size: 170%;
+.stats1 p, .stats2 p, .stats3 p, .stats4 p {
+  font-size: 2vw;
   font-family: 'Space Grotesk', sans-serif;
 }
-.stats td:nth-child(1) {
-  padding-left: 1vw; 
+.stats1 {
+  padding-right: 18.1vw;
 }
-.stats td:nth-child(2) {
-  padding-left: 370px; 
+.stats3 {
+  padding-right: 21vw;
 }
-table {
-  border-collapse: separate;
-  border-spacing: 5.5vw;
-}
+
+
+
+
+
+
+
 .backdrop {
   position: relative;
 }
@@ -132,16 +139,170 @@ table {
 }
 .join p {
   color:black;
-  padding: 3vw 0;
+  padding: 5vw 0 0 0;
 }
-.table_txt img {
-  width: 7vw;
+.man, .trends, .student1, .keynote1, .molecular1, .global1{
+  display: inline-block;
+  vertical-align: bottom;
+}
+.trends p, .keynote1 p, .global1 p {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: bold;
+  font-size: 2vw;
+  margin-left: 1vw;
+}
+.man img {
+  width: 9vw;
+  margin-left: 5.5vw;
+}
+.molecular1 img {
+  width: 9vw;
+  margin-left: 5.8vw;
+}
+.student1 img {
+  width: 9vw;
+  margin-left: 12.5vw;
+}
+.firsttxt, .sectxt1, .thirdtxt1 {
+  display: inline-block;
+  font-family: 'Space Grotesk', sans-serif;
+  text-align: center;
+}
+.firsttxt {
+  margin-left: 8vw;
+  width: 16vw;
+}
+.sectxt1 {
+  margin-left: 14.5vw;
+  width: 19.5vw;
+  margin-top: 1vw;
+}
+.thirdtxt1 {
+  margin-left: 15vw;
+  width: 17.5vw;
+  margin-top: 1vw;
+}
+
+.man, .trends, .student2, .keynote2, .molecular2, .global2{
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-top: 3vw;
+}
+.trends p, .keynote2 p, .global2 p {
+  margin-top: 2vw;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: bold;
+  font-size: 2vw;
+  margin-left: 1vw;
+}
+.global2 p {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.man img {
+  width: 9vw;
+  margin-left: 8.2vw;
+}
+.molecular2 img {
+  width: 9vw;
+  margin-left: 8.8vw;
+}
+.student2 img {
+  width: 9vw;
+  margin-left: 7.8vw;
+}
+.firsttxt, .sectxt2, .thirdtxt2 {
+  display: inline-block;
+  font-family: 'Space Grotesk', sans-serif;
+  text-align: center;
+}
+.firsttxt {
+  margin-left: 8.4vw;
+  width: 16vw;
+}
+.sectxt2 {
+  margin-left: 12.6vw;
+  width: 19.5vw;
+  padding-top: 1vw;
+}
+.thirdtxt2 {
+  margin-left: 16.9vw;
+  width: 17.5vw;
+  padding-top: 1vw;
+}
+
+
+.summit_bkg {
+  position: relative;
+  text-align: center;
+}
+.summit_bkg img {
+  height: 10vw;
+  width: 100vw;
+}
+.summit_txt {
+  position: absolute;
+  top:2vw;
+  left: 26vw;
+}
+.summit_txt p {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: bold;
+  font-size: 5vw;
+  color: white;
+}
+.attendance {
+  display: inline-block;
+  overflow: hidden;
+  float: left;
+}
+.attendance img {
+  width:49.5vw;
   height: auto;
 }
-.table_txt table {
-    border-collapse: separate;
-    border-spacing: 10px; 
-  }
-.table_txt td {
-    padding: 10px; 
-  }
+.attendance_txt {
+  position: relative;
+  display: inline-block;
+  font-family: 'Space Grotesk', sans-serif;
+  overflow: hidden;
+  float: left;
+}
+.attendance_txt img{
+  width: 49.4vw;
+  height: 51.23vw;
+  overflow: hidden;
+}
+.abs_txt {
+  position: absolute;
+  top: 6vw;
+  left: 3vw;
+  font-size: 1.35vw;
+}
+.attendance_txt p {
+  color: white;
+  padding-right: 3vw;
+}
+.abs_txt1 {
+  position: absolute;
+  color: white;
+  top: 19vw;
+  left: 6vw;
+  padding-right: 3vw;
+  font-size: 1.35vw;
+}
+.pic_section {
+  position: absolute;
+  top: 3vw;
+  left: 6vw;
+}
+.pic_section a {
+  text-decoration: none;
+}
+.div1, .div2, .div3, .div4, .div5, .div6 {
+  display: inline-block;
+}
+.div1 img, .div3 img, .div5 img{
+  width: 2.5vw;
+  height: auto;
+}
