@@ -15,18 +15,21 @@ class Header extends HTMLElement {
           z-index: 1000;
         }
         .navbar-toggler {
-          color: white !important;
+          color: black !important;
           position: absolute;
-          top:2.7vw;
+          top:2vw;
           right: 3vw;
         }
+        .navbar-dark .navbar-toggler-icon {
+            background-color: black !important;
+          }
         .navbar-nav {
          text-align: right;
          padding-top: 5.5vw;
         }
         .navbar-nav .nav-link {
-          color: white !important;
-          padding-right: 2vw;
+          color: black !important;
+          font-size: 1.4vw;
         }
         .navbar-nav .nav-link:hover {
           color: gray !important; 

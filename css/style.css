@@ -306,6 +306,12 @@ h1 {
   width: 2.5vw;
   height: auto;
 }
+@media (max-width: 1200px) {
+  .pic_section {
+    top: 0vw;
+    left: 1vw;
+  }
+}
 
 
 .award {
@@ -345,6 +351,9 @@ h1 {
   color: white;
   padding-right: 6vw;
 }
+
+
+
 .investors {
   position: relative;
   display: inline-block;
@@ -405,6 +414,7 @@ h1 {
 }
 .conc_pic {
   position: relative;
+  overflow: hidden;
 }
 .con_pic img {
   width: 100vw;

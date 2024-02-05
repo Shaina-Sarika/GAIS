@@ -17,7 +17,7 @@ class Header extends HTMLElement {
         .navbar-toggler {
           color: white !important;
           position: absolute;
-          top:2.7vw;
+          top:2vw;
           right: 3vw;
         }
         .navbar-nav {
@@ -26,7 +26,7 @@ class Header extends HTMLElement {
         }
         .navbar-nav .nav-link {
           color: white !important;
-          padding-right: 2vw;
+          font-size: 1.4vw;
         }
         .navbar-nav .nav-link:hover {
           color: gray !important; 
