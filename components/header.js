@@ -27,6 +27,7 @@ class Header extends HTMLElement {
         .navbar-nav .nav-link {
           color: white !important;
           padding-right: 2vw;
+          font-size: 1.8vw;
         }
         .navbar-nav .nav-link:hover {
           color: gray !important; 
@@ -48,7 +49,10 @@ class Header extends HTMLElement {
          <div class="collapse navbar-collapse" id="collapsibleNavbar">
            <ul class="navbar-nav">
              <li class="nav-item">
-               <a class="nav-link" href="index.html">Home</a>
+               <a class="nav-link" href="index.html">GAIS</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="conference.html">Conferences</a>
              </li>
              <li class="nav-item">
                <a class="nav-link" href="award.html">Award Ceremony</a>
@@ -57,31 +61,7 @@ class Header extends HTMLElement {
                <a class="nav-link" href="">Global Investors Meet</a>
              </li>
              <li class="nav-item">
-               <a class="nav-link" href="conference.html">Conferences Pages</a>
-             </li>
-             <li class="nav-item">
-               <a class="nav-link" href="">Tickets</a>
-             </li>
-             <li class="nav-item">
-               <a class="nav-link" href="">Agendas</a>
-             </li>
-             <li class="nav-item">
-               <a class="nav-link" href="">Speakers</a>
-             </li>
-             <li class="nav-item">
-               <a class="nav-link" href="">Programme</a>
-             </li>
-             <li class="nav-item">
-               <a class="nav-link" href="">Sponsors</a>
-             </li>
-             <li class="nav-item">
-               <a class="nav-link" href="">Media Partners</a>
-             </li>
-             <li class="nav-item">
-               <a class="nav-link" href="">Tickets Registration Form</a>
-             </li>
-             <li class="nav-item">
-               <a class="nav-link" href="contact.html">Contact Us</a>
+               <a class="nav-link" href="contact.html">Tickets</a>
              </li>
            </ul>
          </div>

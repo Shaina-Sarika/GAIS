@@ -19,7 +19,7 @@ body
 }
 .landing_div img{
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: auto;
 }
 .register img {
@@ -106,7 +106,7 @@ h1 {
   position: relative;
 }
 .backdrop img {
-  width: 100%;
+  width: 100vw;
   height: 41vw;
 }
 .about {
@@ -163,32 +163,34 @@ h1 {
   width: 9vw;
   margin-left: 12.5vw;
 }
-.firsttxt, .sectxt1, .thirdtxt1 {
+.firsttxt1, .sectxt1, .thirdtxt1 {
   display: inline-block;
   font-family: 'Space Grotesk', sans-serif;
-  text-align: center;
+  text-align: left;
+  vertical-align: bottom;
+  overflow: hidden;
 }
-.firsttxt {
-  margin-left: 8vw;
-  width: 16vw;
+.firsttxt2 {
+  margin-top: 1vw;
 }
 .sectxt1 {
   margin-left: 14.5vw;
-  width: 19.5vw;
-  margin-top: 1vw;
+  width: 21vw;
+  margin-top: 2vw;
 }
 .thirdtxt1 {
-  margin-left: 15vw;
-  width: 17.5vw;
-  margin-top: 1vw;
+  margin-left: 13.4vw;
+  width: 21.5vw;
 }
 
 .man, .trends, .student2, .keynote2, .molecular2, .global2{
   overflow: hidden;
   display: inline-block;
-  vertical-align: bottom;
   margin-top: 3vw;
+  vertical-align: top;
 }
+
+
 .trends p, .keynote2 p, .global2 p {
   margin-top: 2vw;
   font-family: 'League Spartan', sans-serif;
@@ -203,31 +205,39 @@ h1 {
 .man img {
   width: 9vw;
   margin-left: 8.2vw;
+  height: 8.5vw;
+}
+.molecular1 img {
+  height: 8.5vw;
 }
 .molecular2 img {
   width: 9vw;
   margin-left: 8.8vw;
+  height: 8.5vw;
 }
 .student2 img {
   width: 9vw;
   margin-left: 7.8vw;
+  height: 8.5vw;
 }
-.firsttxt, .sectxt2, .thirdtxt2 {
+.firsttxt2, .sectxt2, .thirdtxt2 {
   display: inline-block;
   font-family: 'Space Grotesk', sans-serif;
-  text-align: center;
+  text-align: left;
+  vertical-align: top;
+  overflow: hidden;
 }
-.firsttxt {
+.firsttxt1, .firsttxt2 {
   margin-left: 8.4vw;
   width: 16vw;
 }
 .sectxt2 {
-  margin-left: 12.6vw;
+  margin-left: 15vw;
   width: 19.5vw;
   padding-top: 1vw;
 }
 .thirdtxt2 {
-  margin-left: 16.9vw;
+  margin-left: 14.5vw;
   width: 17.5vw;
   padding-top: 1vw;
 }
@@ -414,7 +424,6 @@ h1 {
 }
 .conc_pic {
   position: relative;
-  overflow: hidden;
 }
 .con_pic img {
   width: 100vw;
@@ -435,7 +444,15 @@ h1 {
   position: absolute;
   top: 20vw;
   left: 5vw;
-  width: 18.5vw;
+  width: 16vw;
+  height: auto;
+  border: solid 0.2vw white;
+}
+.applynow img {
+  position: absolute;
+  top: 43vw;
+  left: 5vw;
+  width: 16vw;
   height: auto;
   border: solid 0.2vw white;
 }

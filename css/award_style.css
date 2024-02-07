@@ -67,3 +67,15 @@ body
     left: 4vw;
     color: white;
 }
+.last img {
+    width: 100vw;
+    height: 16vw;
+}
+.register img {
+    position: absolute;
+    top: 3.2vw;
+    left:4.2vw;
+    width: 29vw;
+    height: auto;
+    border: solid 0.2vw white;
+  }
