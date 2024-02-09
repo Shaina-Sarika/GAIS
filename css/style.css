@@ -22,14 +22,6 @@ body
     width: 100vw;
     height: auto;
 }
-.register img {
-  position: absolute;
-  top: 2.8vw;
-  right:7.9vw;
-  width: 14vw;
-  height: auto;
-  border: solid 0.2vw white;
-}
 .intro p {
   position: absolute;
   top: 15.5vw;
@@ -130,6 +122,18 @@ h1 {
   color: white;
   font-family: 'Space Grotesk', sans-serif;
   font-size: 1.5vw;
+}
+.joinbackdrop {
+  position: relative; 
+}
+.joinbackdrop img {
+  width: 100vw;
+  height: auto;
+}
+.absolutetxt {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .join {
   font-family: 'League Spartan', sans-serif;
