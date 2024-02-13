@@ -429,7 +429,7 @@ h1 {
 .conc_pic {
   position: relative;
 }
-.con_pic img {
+.conc_pic img {
   width: 100vw;
   height: auto;
 }
@@ -454,7 +454,7 @@ h1 {
 }
 .applynow img {
   position: absolute;
-  top: 43vw;
+  top: 40vw;
   left: 5vw;
   width: 16vw;
   height: auto;
@@ -462,6 +462,6 @@ h1 {
 }
 .end {
   position: absolute;
-  top: 33vw;
+  top: 30vw;
   left:5vw;
 }
